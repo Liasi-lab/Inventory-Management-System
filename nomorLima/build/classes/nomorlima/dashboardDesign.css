@@ -1,0 +1,205 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 9, 2024, 1:16:54 AM
+    Author     : asus
+*/
+
+.top-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-widht:.4px .4px .2px .4px;
+}
+
+.semi-top-form{
+    -fx-background-color:#efefef;
+    -fx-border-color:#000;
+    -fx-border-widht:.2px .4px .4px .4px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color:#eb6161;
+}
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.minimize:hover{
+    -fx-background-color:#ddd;
+}
+
+.nav-form{
+     -fx-background-color: linear-gradient(to bottom right, #322286, #d05757);
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+    -fx-font-size:14px;
+    -fx-text-fill:#fff;
+    -fx-alignment:center-left;
+}
+
+.logout{
+    -fx-background-color:#3e26c6;
+    -fx-background-radius:10px;
+    -fx-cursor:hand;
+}
+.logout:hover{
+    -fx-background-color:#1c03da;
+}
+
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.4), 5,0,0,0);
+}
+
+.white-bg{
+    -fx-background-color:#fff;
+    -fx-background-radius:8px;
+}
+
+.card{
+        -fx-background-color:linear-gradient(to right,#3a285b, #851747);
+        -fx-background-raidus:5px;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius:4px;
+    -fx-border-color:linear-gradient(to bottom right, #322286, #d05757);
+    -fx-border-radius:4px;
+    -fx-border-width:1px;
+}
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-width:2px;
+}
+
+.import-btn{
+    -fx-background-color:#eee;
+    -fx-text-fill:red;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+    -fx-cursor:hand;
+}
+
+.add-btn{
+    -fx-background-color: firebrick;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+        
+}
+.add-btn:hover{
+    -fx-background-color:#d05757
+        
+}
+.update-btn{
+    -fx-background-color: #851747;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+        
+}
+.update-btn:hover{
+    -fx-background-color: #eb6161;
+}
+.clear-btn{
+    -fx-background-color:  darkgreen;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+        
+}
+.clear-btn:hover{
+    -fx-background-color:  darkkhaki;
+}
+.delete-btn{
+    -fx-background-color: red;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+        
+}
+.delete-btn:hover{
+    -fx-background-color: salmon;
+}
+
+.search{
+    -fx-background-color:transparent;
+    -fx-border-color: linear-gradient(to bottom right, #322286, #d05757);
+    -fx-font-size:14px;
+    -fx-font-family:"Tahoma";
+    -fx-border-widht:1px;
+    -fx-padding:0px 0px 0px 28px;
+    -fx-border-radius:5px;
+}
+.search:focused{
+    -fx-border-widht:2px;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-padding: 0px;
+    -fx-border-color: linear-gradient(to bottom right, #322286, #d05757);
+    -fx-border-radius: 8px;
+    -fx-border-width: 2px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to bottom right, #322286, #d05757);
+    -fx-background-radius: 8px 8px 0px 0px;
+}
+
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size:50px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #fff;
+    -fx-font-family: "Arial";
+}
+
+.pay-btn{
+    -fx-background-color: red;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+}
+
+.pay-btn:hover{
+      -fx-background-color: salmon;
+}
+
+.receipt-btn{
+    -fx-background-color: #851747;
+    -fx-background-radius: 8px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-cursor:hand;
+    -fx-font-family:"Arial";
+        
+}
+.receipt-btn:hover{
+    -fx-background-color: #eb6161;
+}
