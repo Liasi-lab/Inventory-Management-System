@@ -6,3 +6,4 @@ Point-of-sale app in Java (JavaFX, Netbeans) connected to a MySQL database.
 2. Open xampp and start Apache + MySQL
 3. Upload the inventorydatabase.sql to localhost
 4. Run the nomorLima project in Netbeans
+5. Login using 'admin' as username and 'admin123' as password
